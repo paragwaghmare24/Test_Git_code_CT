@@ -1,0 +1,24 @@
+.ai-assist { margin: 20px 0; border: 1px solid #c5d9ef; border-radius: 12px; background: #f8faff; color: #23364a; overflow: hidden; font-size: 13px; }
+.ai-assist .ai-heading { width: 100%; display: flex; justify-content: space-between; text-align: left; background: #eaf2fc; border: 0; border-radius: 0; padding: 14px 18px; color: #1f4e79; font-size: 14px; font-weight: 700; }
+.ai-body { padding: 16px; }
+.ai-assist button { padding: 8px 12px; border: 1px solid #abc5df; border-radius: 6px; background: white; color: #1f4e79; cursor: pointer; font-weight: 600; }
+.ai-assist button:disabled { opacity: .5; cursor: not-allowed; }
+.ai-assist button:focus-visible, .ai-assist textarea:focus-visible, .ai-assist select:focus-visible { outline: 3px solid #588ed2; outline-offset: 2px; }
+.ai-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 10px 0; }
+.ai-assist fieldset { border: 1px solid #d6e1ee; border-radius: 8px; padding: 14px; margin: 12px 0; min-width: 0; }
+.ai-assist legend, .ai-assist h3 { font-weight: 700; color: #1f4e79; }
+.ai-assist h3, .ai-assist h4 { margin: 10px 0; }
+.ai-assist fieldset label { display: block; margin: 8px 0; }
+.ai-assist textarea, .ai-assist select { display: block; width: 100%; box-sizing: border-box; padding: 10px; margin: 6px 0; border: 1px solid #b8ccdf; border-radius: 6px; font: inherit; }
+.ai-assist textarea { min-height: 90px; resize: vertical; }
+.ai-assist input[type=file] { display: block; margin: 8px 0; max-width: 100%; }
+.ai-notice { padding: 12px; background: #edf3fc; border-radius: 6px; line-height: 1.6; }
+.ai-task { background: white; border: 1px solid #bdd1e6; border-radius: 10px; margin: 14px 0; padding: 16px; }
+.ai-assessment { border-left: 4px solid #38785a; padding: 12px; margin: 14px 0; background: #f1f9f5; }
+.ai-proposal { border: 1px solid #e3cd8c; background: #fffdf5; border-radius: 8px; padding: 12px; margin: 14px 0; }
+.ai-finding { padding: 10px; margin: 8px 0; border: 1px solid #dce5ed; border-radius: 6px; }
+.ai-text, .ai-error { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.6; }
+.ai-error { color: #a11e25; padding: 12px; background: #fff0f0; border: 1px solid #edb7b7; border-radius: 6px; }
+.ai-details { margin: 10px 0; }
+.ai-details summary { cursor: pointer; color: #1f4e79; font-weight: 600; }
+.ai-details pre { max-height: 360px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; background: #f3f6fa; border-radius: 6px; padding: 12px; font-size: 12px; }
